@@ -28,9 +28,8 @@ export default function Create() {
   const [details, setDetails] = useState('')
   const [titleError, setTitleError] = useState('false')
   const [detailsError, setDetailsError] = useState('false')
-  const [category, setCategory] = useState('todos') 
+  const [category, setCategory] = useState('money') 
 
-  // let e = ''
   const handleSubmit = (e) => {
     e.preventDefault()
     setTitleError(false)
